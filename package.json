@@ -6,6 +6,9 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "serve": "ng build --watch",
+    "build-metadata": "node ./build-scripts/mock-tpl-handler.js",
+    "postbuild": "node ./build-scripts/mock-tpl-handler.js" ,
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
